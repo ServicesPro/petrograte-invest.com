@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="424px" height="180px" viewBox="0 0 424 180" version="1.1">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>product-column-03</title>
+    <desc>Created with Sketch.</desc>
+    <g id="PPCP---Main" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="01-Home---Desktop" transform="translate(-1036.000000, -777.000000)">
+            <g id="Products" transform="translate(0.000000, 547.000000)">
+                <g id="Column-3" transform="translate(1036.000000, 230.000000)">
+                    <g id="Tile" transform="translate(0.000000, -0.000704)">
+                        <path d="M5,0.000704206328 L419,0.000704206328 C421.761424,0.000704206328 424,2.23928046 424,5.00070421 L424,130.000704 C424,157.614942 401.614237,180.000704 374,180.000704 L5,180.000704 C2.23857625,180.000704 3.38176876e-16,177.762128 0,175.000704 L0,5.00070421 C-3.38176876e-16,2.23928046 2.23857625,0.000704206328 5,0.000704206328 Z" id="Rectangle" fill="#FF311C"/>
+                        <path d="M419,0.000704206328 C421.761424,0.000704206328 424,2.23928046 424,5.00070421 L424,130.000704 C424,157.614942 401.614237,180.000704 374,180.000704 L277.059296,180 L221.772993,103.903745 C205.541751,81.5633575 210.494193,50.2948741 232.83458,34.0636325 L279.718296,-5.68434189e-14 L419,0.000704206328 Z" id="Combined-Shape" fill="#FFFFFF" opacity="0.1"/>
+                        
+
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
