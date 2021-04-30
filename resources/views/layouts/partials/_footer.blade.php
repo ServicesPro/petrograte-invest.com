@@ -63,8 +63,8 @@
             </a>
             <div class="container mx-auto">
                 <div class="flex justify-center">
-                    <p class="text-sm text-white sm:ml-6 sm:mt-0 mt-4">Copyright © 2021 Petrograte —
-                        <a href="https://e-servicespro.com/" rel="noopener noreferrer" class="text-white ml-1" target="_blank">@E-Services</a>
+                    <p class="text-sm text-white sm:ml-6 sm:mt-0 mt-4">Copyright © 2021 Petrograte <!-- —
+                        <a href="https://e-servicespro.com/" rel="noopener noreferrer" class="text-white ml-1" target="_blank">@E-Services</a>-->
                     </p>
                 </div>
             </div>
