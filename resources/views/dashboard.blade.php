@@ -229,12 +229,17 @@
         const HOURS = 60 * MINUTES
         const DAYS = 24 * HOURS
 
-        const elements = {
-            days: document.getElementById('#days'),
-            hours: document.getElementById('#hours'),
-            minutes: document.getElementById('#minutes'),
-            seconds: document.getElementById('#seconds')
+        // const elements = {
+        //     days: document.getElementById('#days'),
+        //     hours: document.getElementById('#hours'),
+        //     minutes: document.getElementById('#minutes'),
+        //     seconds: document.getElementById('#seconds')
         }
+
+        let $days = document.getElementById('#days')
+        let $hours = document.getElementById('#hours')
+        let $minutes = document.getElementById('#minutes')
+        let $seconds = document.getElementById('#seconds')
 
         const $days = document.getElementById('#days')
         const $hours = document.getElementById('#hours')
@@ -244,14 +249,16 @@
 
         const countdown = document.getElementById('countdown')
         const launchDate = Date.parse(countdown.dataset.time) / 1000
+        // alert(countdown.dataset.time)
 
         function refreshCountdown() {
             const difference = launchDate - Date.now() / 1000
 
             if (difference <= 0) {
-                document.location.reload()
+                // document.location.reload()
                 return
             }
+            
             const diff = {
                 days: Math.floor(difference / DAYS),
                 hours: Math.floor(difference % DAYS / HOURS),
@@ -267,29 +274,29 @@
         }
 
         function updateDom(diff) {
-            Object.keys(diff).forEach(() => {
-                if (previousDiff[key] != diff[key]) {
-                    elements[key].innerText = diff[key]
-                }
-            })
+            // Object.keys(diff).forEach(() => {
+            //     if (previousDiff[key] != diff[key]) {
+            //         elements[key].innerText = diff[key]
+            //     }
+            // })
+
+            if (previousDiff.days != diff.days) {
+                $days.innerText = diff.days
+            }
+            
+            if (previousDiff.hours != diff.hours) {
+                $hours.innerText = diff.hours
+            }
+
+            if (previousDiff.minutes != diff.minutes) {
+                $minutes.innerText = diff.minutes
+            }
+
+            if (previousDiff.seconds != diff.seconds) {
+                $seconds.innerText = diff.seconds
+            }
 
             previousDiff = diff
-
-            // if (previousDiff.days != diff.days) {
-            //     $days.innerText = diff.days
-            // }
-            
-            // if (previousDiff.hours != diff.hours) {
-            //     $hours.innerText = diff.hours
-            // }
-
-            // if (previousDiff.minutes != diff.minutes) {
-            //     $minutes.innerText = diff.minutes
-            // }
-
-            // if (previousDiff.seconds != diff.seconds) {
-            //     $seconds.innerText = diff.seconds
-            // }
         }
 
         refreshCountdown();
