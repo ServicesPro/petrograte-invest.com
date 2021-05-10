@@ -225,6 +225,29 @@
             })
         })
         
+        // window.addEventListener('DOMContentLoaded', () => {
+          //   const overlay = document.getElementById('overlay')
+            // const withdrawalBtn = document.getElementById('withdrawal-btn')
+        //     const closeModal = document.getElementById('close-modal')
+
+        //     const toggleModal = () => {
+          //       overlay.classList.toggle('flex')
+        //         overlay.classList.toggle('hidden')
+        //     }
+
+         //    console.log(closeModal)
+
+          //   withdrawalBtn.addEventListener('click', () => {
+          //       overlay.classList.toggle('hidden')
+          //       overlay.classList.toggle('flex')
+          //  })
+
+          //   closeModal.addEventListener('click', () => {
+          //       overlay.classList.remove('flex')
+          //       overlay.classList.add('hidden')
+          //   })
+       //  })
+        
         const MINUTES = 60
         const HOURS = 60 * MINUTES
         const DAYS = 24 * HOURS
